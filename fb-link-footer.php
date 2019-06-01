@@ -7,6 +7,12 @@
     Author: VOMAkSh
  */
 
- if (!defined(ABSPATH)) {
-     exit ;
- }
+    if (!defined('ABSPATH')) {
+        exit ;
+    }
+
+    require_once(plugin_dir_path(__FILE__) . "/includes/" . "fb-link-footer.php");
+    require_once(plugin_dir_path(__FILE__) . '/includes/' . "fb-link-footer-content.php");
+
+
+?>
