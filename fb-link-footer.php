@@ -13,6 +13,7 @@
 
     require_once(plugin_dir_path(__FILE__) . "/includes/" . "fb-link-footer.php");
     require_once(plugin_dir_path(__FILE__) . '/includes/' . "fb-link-footer-content.php");
+    require_once(plugin_dir_path(__FILE__) . '/includes/' . "fb-link-footer-settings.php");
 
 
 ?>
